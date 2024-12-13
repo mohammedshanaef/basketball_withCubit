@@ -47,12 +47,12 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.teal,
-        title: Text(
+        title: const  Text(
           "Points Counter",
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: Column(
+      body:  Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Row(
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               Column(
                 children: [
-                  Text(
+                const  Text(
                     "Team A",
                     style: TextStyle(fontSize: 32),
                   ),
